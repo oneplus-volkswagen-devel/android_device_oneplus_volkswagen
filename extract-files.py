@@ -64,6 +64,11 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libcamxods.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    (
+        'vendor/etc/media_codecs_tuna_v0.xml',
+        'vendor/etc/media_codecs_tuna_v1.xml',
+    ): blob_fixup()
+        .regex_replace(r'.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
