@@ -1,5 +1,6 @@
 # Display
 ro.vendor.display.sensortype=2
+vendor.display.disable_idle_fps_switch=1
 vendor.display.enable_dcc=1000000000000
 vendor.display.enable_demura=1
 vendor.display.enable_hist_intr=1
