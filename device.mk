@@ -54,6 +54,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24885/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/24885/build.IN.prop \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24885/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/24885/build.ROW.prop
 
+# Recovery
+PRODUCT_PACKAGES += \
+    hbp-setup
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
