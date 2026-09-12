@@ -8,219 +8,255 @@
         </density>
     </densityMapping>
 
-    <screenBrightnessMap interpolation="linear">
+<screenBrightnessMap interpolation="linear">
         <point>
-            <value>0.0000</value>
-            <nits>0.2289</nits>
+            <value>0.000000</value>
+            <nits>0.0000</nits>
         </point>
         <point>
-            <value>0.0195</value>
-            <nits>4.4509</nits>
+            <value>0.000244</value>
+            <nits>2.0200</nits>
         </point>
         <point>
-            <value>0.0392</value>
-            <nits>6.8769</nits>
+            <value>0.000733</value>
+            <nits>2.0510</nits>
         </point>
         <point>
-            <value>0.0587</value>
-            <nits>11.6512</nits>
+            <value>0.001710</value>
+            <nits>2.1140</nits>
         </point>
         <point>
-            <value>0.0784</value>
-            <nits>18.5109</nits>
+            <value>0.003665</value>
+            <nits>2.2400</nits>
         </point>
         <point>
-            <value>0.0980</value>
-            <nits>27.5286</nits>
+            <value>0.007574</value>
+            <nits>2.4910</nits>
         </point>
         <point>
-            <value>0.1176</value>
-            <nits>38.3354</nits>
+            <value>0.011483</value>
+            <nits>2.7420</nits>
         </point>
         <point>
-            <value>0.1372</value>
-            <nits>49.5442</nits>
+            <value>0.015392</value>
+            <nits>2.9930</nits>
         </point>
         <point>
-            <value>0.1568</value>
-            <nits>64.2686</nits>
+            <value>0.019301</value>
+            <nits>3.2440</nits>
         </point>
         <point>
-            <value>0.1764</value>
-            <nits>81.6825</nits>
+            <value>0.023210</value>
+            <nits>3.4950</nits>
         </point>
         <point>
-            <value>0.1961</value>
-            <nits>99.8549</nits>
+            <value>0.027119</value>
+            <nits>3.7460</nits>
         </point>
         <point>
-            <value>0.2156</value>
-            <nits>117.9603</nits>
+            <value>0.031029</value>
+            <nits>3.9980</nits>
         </point>
         <point>
-            <value>0.2353</value>
-            <nits>132.6605</nits>
+            <value>0.034938</value>
+            <nits>4.2360</nits>
         </point>
         <point>
-            <value>0.2548</value>
-            <nits>153.7292</nits>
+            <value>0.038847</value>
+            <nits>4.2940</nits>
         </point>
         <point>
-            <value>0.2744</value>
-            <nits>177.8811</nits>
+            <value>0.042756</value>
+            <nits>4.3650</nits>
         </point>
         <point>
-            <value>0.2941</value>
-            <nits>203.9206</nits>
+            <value>0.046665</value>
+            <nits>4.4490</nits>
         </point>
         <point>
-            <value>0.3136</value>
-            <nits>232.8468</nits>
+            <value>0.050574</value>
+            <nits>4.5480</nits>
         </point>
         <point>
-            <value>0.3333</value>
-            <nits>265.5024</nits>
+            <value>0.054483</value>
+            <nits>4.6620</nits>
         </point>
         <point>
-            <value>0.3528</value>
-            <nits>300.7833</nits>
+            <value>0.058392</value>
+            <nits>4.7910</nits>
         </point>
         <point>
-            <value>0.3725</value>
-            <nits>339.1603</nits>
+            <value>0.062301</value>
+            <nits>4.9360</nits>
         </point>
         <point>
-            <value>0.3921</value>
-            <nits>379.3092</nits>
+            <value>0.070120</value>
+            <nits>5.2750</nits>
         </point>
         <point>
-            <value>0.4117</value>
-            <nits>422.9130</nits>
+            <value>0.077938</value>
+            <nits>5.6830</nits>
         </point>
         <point>
-            <value>0.4313</value>
-            <nits>467.6717</nits>
+            <value>0.085756</value>
+            <nits>6.1630</nits>
         </point>
         <point>
-            <value>0.4509</value>
-            <nits>515.9362</nits>
+            <value>0.093574</value>
+            <nits>6.7180</nits>
         </point>
         <point>
-            <value>0.4705</value>
-            <nits>567.4022</nits>
+            <value>0.101393</value>
+            <nits>7.3510</nits>
         </point>
         <point>
-            <value>0.4902</value>
-            <nits>621.2638</nits>
+            <value>0.109211</value>
+            <nits>8.0660</nits>
         </point>
         <point>
-            <value>0.5097</value>
-            <nits>652.9980</nits>
+            <value>0.117029</value>
+            <nits>8.8640</nits>
         </point>
         <point>
-            <value>0.5294</value>
-            <nits>657.4003</nits>
+            <value>0.124847</value>
+            <nits>9.7480</nits>
         </point>
         <point>
-            <value>0.5490</value>
-            <nits>663.0907</nits>
+            <value>0.140484</value>
+            <nits>11.7830</nits>
         </point>
         <point>
-            <value>0.5686</value>
-            <nits>666.9472</nits>
+            <value>0.156120</value>
+            <nits>14.1870</nits>
         </point>
         <point>
-            <value>0.5882</value>
-            <nits>672.5456</nits>
+            <value>0.171757</value>
+            <nits>16.9750</nits>
         </point>
         <point>
-            <value>0.6077</value>
-            <nits>677.9654</nits>
+            <value>0.187393</value>
+            <nits>20.1560</nits>
         </point>
         <point>
-            <value>0.6274</value>
-            <nits>682.5966</nits>
+            <value>0.203030</value>
+            <nits>23.7420</nits>
         </point>
         <point>
-            <value>0.6471</value>
-            <nits>687.7337</nits>
+            <value>0.218666</value>
+            <nits>27.7400</nits>
         </point>
         <point>
-            <value>0.6666</value>
-            <nits>691.9226</nits>
+            <value>0.234302</value>
+            <nits>32.1560</nits>
         </point>
         <point>
-            <value>0.6862</value>
-            <nits>697.3131</nits>
+            <value>0.249939</value>
+            <nits>36.9940</nits>
         </point>
         <point>
-            <value>0.7058</value>
-            <nits>701.3130</nits>
+            <value>0.281212</value>
+            <nits>47.9540</nits>
         </point>
         <point>
-            <value>0.7254</value>
-            <nits>707.0514</nits>
+            <value>0.312485</value>
+            <nits>60.6390</nits>
         </point>
         <point>
-            <value>0.7451</value>
-            <nits>712.5063</nits>
+            <value>0.343758</value>
+            <nits>75.0540</nits>
         </point>
         <point>
-            <value>0.7646</value>
-            <nits>718.2969</nits>
+            <value>0.375031</value>
+            <nits>91.2010</nits>
         </point>
         <point>
-            <value>0.7843</value>
-            <nits>723.9837</nits>
+            <value>0.406303</value>
+            <nits>109.0750</nits>
         </point>
         <point>
-            <value>0.8038</value>
-            <nits>728.3262</nits>
+            <value>0.437576</value>
+            <nits>128.6730</nits>
         </point>
         <point>
-            <value>0.8235</value>
-            <nits>734.2028</nits>
+            <value>0.468849</value>
+            <nits>149.9950</nits>
         </point>
         <point>
-            <value>0.8431</value>
-            <nits>739.4332</nits>
+            <value>0.500122</value>
+            <nits>173.0420</nits>
         </point>
         <point>
-            <value>0.8627</value>
-            <nits>744.2439</nits>
+            <value>0.531395</value>
+            <nits>197.8240</nits>
         </point>
         <point>
-            <value>0.8823</value>
-            <nits>750.5568</nits>
+            <value>0.562668</value>
+            <nits>224.3570</nits>
         </point>
         <point>
-            <value>0.9018</value>
-            <nits>755.1467</nits>
+            <value>0.593941</value>
+            <nits>252.6630</nits>
         </point>
         <point>
-            <value>0.9215</value>
-            <nits>760.6885</nits>
+            <value>0.625214</value>
+            <nits>282.7710</nits>
         </point>
         <point>
-            <value>0.9412</value>
-            <nits>766.5874</nits>
+            <value>0.656487</value>
+            <nits>314.7150</nits>
         </point>
         <point>
-            <value>0.9607</value>
-            <nits>770.8062</nits>
+            <value>0.687760</value>
+            <nits>348.5330</nits>
         </point>
         <point>
-            <value>0.9803</value>
-            <nits>776.6059</nits>
+            <value>0.719032</value>
+            <nits>384.2650</nits>
         </point>
         <point>
-            <value>1.0000</value>
-            <nits>782.4283</nits>
+            <value>0.750305</value>
+            <nits>421.9490</nits>
+        </point>
+        <point>
+            <value>0.781578</value>
+            <nits>461.6200</nits>
+        </point>
+        <point>
+            <value>0.812851</value>
+            <nits>503.3050</nits>
+        </point>
+        <point>
+            <value>0.844124</value>
+            <nits>547.1100</nits>
+        </point>
+        <point>
+            <value>0.858539</value>
+            <nits>567.9400</nits>
+        </point>
+        <point>
+            <value>0.875397</value>
+            <nits>592.8420</nits>
+        </point>
+        <point>
+            <value>0.906670</value>
+            <nits>640.5680</nits>
+        </point>
+        <point>
+            <value>0.937943</value>
+            <nits>690.2340</nits>
+        </point>
+        <point>
+            <value>0.969216</value>
+            <nits>741.7500</nits>
+        </point>
+        <point>
+            <value>1.000000</value>
+            <nits>794.1400</nits>
         </point>
     </screenBrightnessMap>
 
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.85</transitionPoint>
+        <transitionPoint>0.858539</transitionPoint>
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
 
         <minimumLux>10000</minimumLux>
