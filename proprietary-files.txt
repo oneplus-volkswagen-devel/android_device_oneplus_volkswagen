@@ -1334,6 +1334,10 @@ vendor/etc/sensors/config/qsh_camera_ov32c4c_4_sm8735.json
 vendor/etc/sensors/config/qsh_camera_zffront_3.json
 
 
+# Touch service
+odm/bin/hw/vendor-oplus-hardware-touch-V2-hbp5-service;OVERRIDES=vendor-oplus-hardware-touch-V2-service
+odm/etc/init/vendor-oplus-hardware-touch-V2-hbp5-service.rc:odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
+
 # Touchscreen firmware
 odm/firmware/tp/vw/GloveDetect.tflite
 odm/firmware/tp/vw/model.tflite
