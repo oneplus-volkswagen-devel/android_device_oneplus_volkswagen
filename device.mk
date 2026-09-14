@@ -39,7 +39,9 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    FrameworksResTargetPowerProfileEU \
+    FrameworksResTargetPowerProfileROW
 
 # NFC
 PRODUCT_COPY_FILES += \
