@@ -25,11 +25,8 @@ vendor/etc/usecaseKvManager.xml
 odm/firmware/tfa98xx.cnt
 
 # ADSP modules
-odm/lib/rfsa/adsp/libCalculator_skel.so;MAKE_COPY_RULE_ONLY
 odm/lib/rfsa/adsp/libQnnHtpV73.so
 odm/lib/rfsa/adsp/libQnnHtpV73Skel.so
-odm/lib/rfsa/adsp/libQnnSaver.so;MAKE_COPY_RULE_ONLY
-odm/lib/rfsa/adsp/libarc_htp_driver_skel.so;MAKE_COPY_RULE_ONLY
 odm/lib/rfsa/adsp/libtfadsp_sb5_5_rx.so
 odm/lib/rfsa/adsp/libtfadsp_sb5_5_tx.so
 
