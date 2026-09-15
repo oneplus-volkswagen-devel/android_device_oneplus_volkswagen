@@ -1464,7 +1464,7 @@ odm/firmware/aw8697_haptic_170.bin
 odm/firmware/aw8697_haptic_170_soft.bin
 
 # Vibrator
-odm/lib64/libsivibrator.so
+odm/lib64/libsivibrator.so:vendor/lib64/libsivibrator.so
 
 
 # WiFi
