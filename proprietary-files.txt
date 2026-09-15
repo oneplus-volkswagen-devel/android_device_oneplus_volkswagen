@@ -25,8 +25,11 @@ vendor/etc/usecaseKvManager.xml
 odm/firmware/tfa98xx.cnt
 
 # ADSP modules
+odm/lib/rfsa/adsp/libCalculator_skel.so
 odm/lib/rfsa/adsp/libQnnHtpV73.so
 odm/lib/rfsa/adsp/libQnnHtpV73Skel.so
+odm/lib/rfsa/adsp/libQnnSaver.so
+odm/lib/rfsa/adsp/libarc_htp_driver_skel.so
 odm/lib/rfsa/adsp/libtfadsp_sb5_5_rx.so
 odm/lib/rfsa/adsp/libtfadsp_sb5_5_tx.so
 
@@ -1459,6 +1462,9 @@ odm/etc/wave_lib/F_MMAP.txt
 odm/firmware/aw8697_haptic.bin
 odm/firmware/aw8697_haptic_170.bin
 odm/firmware/aw8697_haptic_170_soft.bin
+
+# Vibrator
+odm/lib64/libsivibrator.so
 
 
 # WiFi

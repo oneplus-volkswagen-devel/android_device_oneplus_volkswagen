@@ -81,7 +81,7 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_HTPR,false)
 
 # Vibrator
-$(call soong_config_set_bool,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
+TARGET_VIBRATOR_SERVICE := android.hardware.vibrator.service.oplus-livetap
 
 # Inherit from the common OEM chipset makefile.
 # Inherit from the proprietary files makefile.
