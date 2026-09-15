@@ -24,6 +24,14 @@ vendor/etc/usecaseKvManager.xml
 # Audio firmware
 odm/firmware/tfa98xx.cnt
 
+# Audio DSP
+odm/lib/rfsa/adsp/libtfadsp_sb5_5_rx.so
+odm/lib/rfsa/adsp/libtfadsp_sb5_5_tx.so
+
+# QNN DSP
+odm/lib/rfsa/adsp/libQnnHtpV73.so
+odm/lib/rfsa/adsp/libQnnHtpV73Skel.so
+
 # Audio params
 odm/etc/audio/audiox_param/HP_COMMON.bin
 odm/etc/audio/audiox_param/HP_GAME1.bin
