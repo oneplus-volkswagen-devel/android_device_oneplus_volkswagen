@@ -305,4 +305,6 @@
     <!-- Default value for fp screen off unlock toggle, it only works for the devices that support
          fp screen off unlock-->
     <bool name="config_screen_off_udfps_default_on">true</bool>
+    <!-- Default refresh rate for Volkswagen (120 Hz) -->
+    <integer name="config_defaultRefreshRate">120</integer>
 </resources>
