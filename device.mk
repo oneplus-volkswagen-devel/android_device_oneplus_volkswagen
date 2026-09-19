@@ -8,9 +8,10 @@
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
-# Action button
+# Keylayouts
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/configs/keylayout/touchpanel.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/touchpanel.kl
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -43,6 +44,10 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     FrameworksResTargetPowerProfileEU \
     FrameworksResTargetPowerProfileROW
+
+# Spoofify
+PRODUCT_PACKAGES += \
+    Spoofify
 
 # NFC
 PRODUCT_COPY_FILES += \
