@@ -45,10 +45,6 @@ PRODUCT_PACKAGES += \
     FrameworksResTargetPowerProfileEU \
     FrameworksResTargetPowerProfileROW
 
-# Spoofify
-PRODUCT_PACKAGES += \
-    Spoofify
-
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
