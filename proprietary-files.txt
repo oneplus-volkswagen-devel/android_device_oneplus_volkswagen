@@ -1589,3 +1589,33 @@ vendor/etc/sensors/config/qsh_camera_ov32c4c_4_sm8735.json
 vendor/etc/sensors/config/qsh_camera_zffront_3.json
 
 # vi:ft=conf
+
+# Decommonized from sm8750-common
+odm/bin/touchDaemon
+odm/etc/init/init.touchDaemon.rc
+odm/etc/vintf/manifest/manifest_touch_aidl.xml
+odm/lib/rfsa/adsp/libSuperRawPost_skel.so
+odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so
+odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so
+odm/lib/rfsa/adsp/libktveffect.so
+odm/lib64/aiframe/libQnnHtp.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnHtpPrepare.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnSystem.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libaiboost_qnn_external_delegate.so;FIX_SONAME
+odm/lib64/aiframe/libqcom_llm.so
+odm/lib64/aiframe/libtransformer_lite.so
+odm/lib64/libQnnCpu.so
+odm/lib64/libQnnGpu.so
+odm/lib64/libQnnHtp.so
+odm/lib64/libQnnHtpPrepare.so
+odm/lib64/libQnnSaver.so
+odm/lib64/libQnnSystem.so
+odm/lib64/libaiboost.so
+odm/lib64/libaiboost_llm.so
+odm/lib64/libaiboost_qnn_external_delegate_te.so;FIX_SONAME
+odm/lib64/libaiboost_te.so;FIX_SONAME
+odm/lib64/libtensorflowlite_oplus.so
+vendor/gpu/kbc/sequence_manifest.bin
+vendor/gpu/kbc/unified_kbcs_32.bin
+vendor/gpu/kbc/unified_kbcs_64.bin
+vendor/gpu/kbc/unified_ksqs.bin
