@@ -14,10 +14,22 @@ $(call inherit-product, device/oneplus/volkswagen/device.mk)
 # Insecure ADB
 WITH_ADB_INSECURE := true
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Infinity-X stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_volkswagen
+# Infinity-X specific flags
+INFINITY_MAINTAINER := SphericalKat
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Device marketing info
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.product.marketname=OnePlus Nord 6 \
+    ro.infinity.soc=Snapdragon 8 Elite \
+    ro.infinity.camera=50MP + 8MP
+
+PRODUCT_NAME := infinity_volkswagen
 PRODUCT_DEVICE := volkswagen
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

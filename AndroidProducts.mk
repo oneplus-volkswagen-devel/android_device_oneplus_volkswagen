@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_volkswagen.mk
+    $(LOCAL_DIR)/infinity_volkswagen.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_volkswagen-eng \
+    infinity_volkswagen-user \
+    infinity_volkswagen-userdebug
