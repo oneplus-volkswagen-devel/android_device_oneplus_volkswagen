@@ -1617,6 +1617,7 @@ vendor/etc/media_tuna_v1/video_system_specs.json
 
 # Decommonized from sm8750-common
 odm/bin/touchDaemon
+odm/etc/horae/horae_target.conf
 odm/etc/init/init.touchDaemon.rc
 odm/etc/vintf/manifest/manifest_touch_aidl.xml
 odm/lib/rfsa/adsp/libSuperRawPost_skel.so
