@@ -78,6 +78,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 
+# Thermal
+THERMAL_ENGINE_CONFIG := $(LOCAL_PATH)/configs/thermal/thermal-engine.conf
+
 # Touch features
 $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_HTPR,false)
