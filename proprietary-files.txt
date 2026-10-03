@@ -1362,6 +1362,10 @@ odm/firmware/uff_spi.mdt
 # NFC firmware
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
 
+# Post-boot initialization
+vendor/bin/init.kernel.post_boot-tuna.sh
+vendor/bin/init.kernel.post_boot-tuna_default_2_3_2_1.sh
+
 # Sensors
 vendor/lib64/sensors.qsh.so
 
