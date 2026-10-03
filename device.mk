@@ -54,6 +54,11 @@ PRODUCT_COPY_FILES += \
 # Power
 $(call soong_config_set,qtipower,mode_ext_lib,power-ext-oplus)
 
+# Post-boot initialization
+PRODUCT_PACKAGES += \
+    init.kernel.post_boot-tuna.sh \
+    init.kernel.post_boot-tuna_default_2_3_2_1.sh
+
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare-service.oplus

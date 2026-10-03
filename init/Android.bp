@@ -1,0 +1,16 @@
+//
+// Copyright (C) 2026 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna.sh",
+    src: "init.kernel.post_boot-tuna.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna_default_2_3_2_1.sh",
+    src: "init.kernel.post_boot-tuna_default_2_3_2_1.sh",
+    vendor: true,
+}
