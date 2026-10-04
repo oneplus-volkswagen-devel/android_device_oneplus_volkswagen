@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- SoftAP capabilities from stock OPlus/Qualcomm overlay -->
+    <bool translatable="false" name="config_wifiSoftapAutoAppendLowerBandsToBandConfigurationEnabled">false</bool>
+    <bool translatable="false" name="config_wifiBridgedSoftApSupported">false</bool>
+    <bool translatable="false" name="config_wifiSoftapAutoUpgradeToBridgedConfigWhenSupported">false</bool>
+    <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
+    <bool translatable="false" name="config_wifi_softap_ieee80211ac_supported">true</bool>
+    <bool translatable="false" name="config_wifi_softap_sae_supported">true</bool>
+    <bool translatable="false" name="config_wifiSoftapOweSupported">true</bool>
+    <bool translatable="false" name="config_wifiSoftapOweTransitionSupported">true</bool>
+    <bool translatable="false" name="config_wifiSoftapAcsIncludeDfs">true</bool>
+    <bool translatable="false" name="config_wifiSoftapResetMaxClientSettingConfig">false</bool>
+    <integer translatable="false" name="config_wifiHardwareSoftapMaxClientCount">32</integer>
+
+    <!-- Concurrency and roaming from stock vendor overlays -->
+    <bool translatable="false" name="config_wifiMultiStaLocalOnlyConcurrencyEnabled">true</bool>
+    <bool translatable="false" name="config_wifiMultiStaMultiInternetConcurrencyEnabled">true</bool>
+    <bool translatable="false" name="config_wifiMultiStaNetworkSwitchingMakeBeforeBreakEnabled">true</bool>
+    <bool translatable="false" name="config_wifiUseHalApiToDisableFwRoaming">true</bool>
+
+    <!-- Regulatory from stock overlay -->
+    <bool translatable="false" name="config_wifiStaDynamicCountryCodeUpdateSupported">true</bool>
+
+    <!-- Stock TCP buffers from OplusWifiResourceEx -->
+    <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,8808040,524288,1048576,6710886</string>
+
+    <!-- Stock scanning & RSSI poll intervals -->
+    <integer translatable="false" name="config_wifiPollRssiIntervalMilliseconds">2000</integer>
+    <integer-array translatable="false" name="config_wifiDisconnectedScanIntervalScheduleSec">
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </integer-array>
+</resources>

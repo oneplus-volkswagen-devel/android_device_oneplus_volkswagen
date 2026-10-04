@@ -44,7 +44,8 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     FrameworksResTargetPowerProfileEU \
-    FrameworksResTargetPowerProfileROW
+    FrameworksResTargetPowerProfileROW \
+    WifiOverlayVolkswagen
 
 # NFC
 PRODUCT_COPY_FILES += \
@@ -89,6 +90,7 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_HTPR,false)
 PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.oplus-livetap \
     OplusHaptics
+
 
 # Inherit from the common OEM chipset makefile.
 # Inherit from the proprietary files makefile.
