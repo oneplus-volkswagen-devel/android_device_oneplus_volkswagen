@@ -17,6 +17,8 @@ TARGET_OTA_ASSERT_DEVICE := OP6135L1,CPH2793,CPH2795
 
 # Display
 TARGET_SCREEN_DENSITY := 560
+$(call soong_config_set_bool,qtidisplaycommonsys,displayextension,true)
+$(call soong_config_set_bool,qtidisplaycommonsys,composer3ext,false)
 
 # Kernel
 TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_VOLKSWAGEN_DTB=y
