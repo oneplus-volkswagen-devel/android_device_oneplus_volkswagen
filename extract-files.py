@@ -10,6 +10,7 @@ from extract_utils.fixups_blob import (
 )
 from extract_utils.fixups_lib import (
     lib_fixups,
+    lib_fixups_user_type,
 )
 from extract_utils.main import (
     ExtractUtils,
@@ -20,8 +21,19 @@ namespace_imports = [
     'hardware/oplus',
     'hardware/qcom-caf/sm8750',
     'vendor/oneplus/sm8750-common',
+    'vendor/qcom/opensource/commonsys/display',
     'vendor/qcom/opensource/commonsys-intf/display',
 ]
+
+lib_fixups: lib_fixups_user_type = {
+    **lib_fixups,
+    (
+        'vendor.qti.hardware.perf2-V1-ndk',
+        'vendor.qti.qspmhal-V1-ndk',
+    ): lambda lib, partition: (
+        f'{lib}_system' if partition in ('system', 'system_ext') else None
+    ),
+}
 
 blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
