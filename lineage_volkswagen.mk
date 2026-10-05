@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/volkswagen/device.mk)
 # Insecure ADB
 WITH_ADB_INSECURE := true
 
+# Charger
+WITH_LINEAGE_CHARGER := false
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 

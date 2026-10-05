@@ -27,12 +27,6 @@ namespace_imports = [
 
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
-    (
-        'vendor.qti.hardware.perf2-V1-ndk',
-        'vendor.qti.qspmhal-V1-ndk',
-    ): lambda lib, partition: (
-        f'{lib}_system' if partition in ('system', 'system_ext') else None
-    ),
 }
 
 blob_fixups: blob_fixups_user_type = {
